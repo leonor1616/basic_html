@@ -1,0 +1,35 @@
+body{
+    background-color:aliceblue;
+}
+
+.panel{
+    font-family: sans-serif;
+    text-align: center;
+    
+
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+
+    
+}
+
+.card{
+    padding: 8px;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+
+.link-tvtime-profile{
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+
