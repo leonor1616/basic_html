@@ -1,12 +1,20 @@
 body{
-    background-color:aliceblue;
+    background-color:#171717;
 }
 
-.panel{
+.top-panel, .shows-panel{
     font-family: sans-serif;
     text-align: center;
-    
+}
 
+.top-text{
+    margin: 24px
+}
+
+.top-panel{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
 }
 
 .card-container{
@@ -17,19 +25,36 @@ body{
     
 }
 
+.card h4{
+    color:whitesmoke;
+    opacity: 50%;
+}
+
+.top-text{
+    color: whitesmoke;
+    opacity: 70%;
+}
+
 .card{
+    display: flex;
+    flex-direction: column;
     padding: 8px;
     align-content: center;
     justify-content: center;
+    text-align:center
 
 }
 
+.card dd{
+    text-align:justify;
+    margin: auto;
+}
 
 
 .link-tvtime-profile{
     text-align: center;
     font-family: sans-serif;
-    font-style: italic;
+    font-style:normal;;
 }
 
 
