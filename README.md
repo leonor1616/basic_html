@@ -1,2 +1,2 @@
-# WEB_base_html
- Projeto base para a disciplina de programação para internet
+# base_html
+ html e css basicos 
